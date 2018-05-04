@@ -1,0 +1,163 @@
+body{font-family: 'Roboto Slab', serif;font-family: 'Montserrat Light', arial;
+font-size: 14px;line-height: 12.56px;color: #727272;background: #fff; }
+
+/* top bar */
+.top_bar{background: #333333;}
+.top_bar h4{margin: 0;padding: 11px 0;font-size: 12px;}
+.top_bar ul{list-style: none;}
+.top_bar ul li{float: left;margin-left: 20px;}
+.top_bar ul li:first-child{margin-left: 0px;}
+.top_bar ul li a{color: #999999;text-decoration: none;font-size: 12px;}
+.top_bar ul li a:hover{color: #00c8c8;}
+.currency:hover{color: #00c8c8;cursor: pointer;}
+.link{padding: 11px 0;}
+.cart{background: #00c8c8; padding: 14px 13px;color: #fff;}
+/*nav*/
+nav{ text-transform: uppercase; }
+.logo{ padding-right: 400px; font-weight: bold;}
+.navbar{ margin: 0; background: transparent;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:  #00c8c8;
+    
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #00c8c8;
+    background-color: #f8f8f8;
+}
+.navbar { border-radius: 0; }
+.navbar-default .navbar-form input[type=text] {
+    border-color: #e7e7e7;
+    outline: none;
+
+}
+
+
+/* banner */
+.banner{background: #f8f8f8;position: relative; top: 0; margin-bottom: 38px;}
+.banner_image{margin-left: 250px;}
+.slider{position: absolute;top: 148px;left: 103px;}
+.slider h2{margin-left:107px;margin-top: 0; float: left;font-size: 256.86px;font-family: 'Montserrat bold', arial;color: #575153;}
+.shop{position: absolute;top:282px; right: -18px;background: #fff;border: 1px solid #000;border-radius: 0;}
+.shop:hover{background-color: #00c8c8;}
+
+/* content */
+.content: {margin-bottom: 36px;}
+.border_top{border-top: 1px solid #f8f8f8;}
+.menu{margin-top: 33px;}
+.menu ul{list-style: none;}
+.menu ul li{float: left; margin-left: 35px;}
+.menu ul li.active a{color: #00c8c8;}
+.menu ul li a{text-decoration: none;text-transform: capitalize;color: #727272;}
+.menu ul li a:hover{color: #00c8c8;}
+.img{ background: #f8f8f8; }
+
+/* items */
+.item{margin: 36px 0px;}
+.item img{background: #f8f8f8;}
+.margin_bottom{margin-bottom: 17px;}
+.t_shirt{position: relative;}
+.price{position: absolute;top: 8px; left: 27px;}
+.t_shirt_2{margin-top: -115px;}
+.girl{margin-left: -30px;}
+.sweater{margin-left: -30px;}
+.girl_2{margin-left: -59px;}
+.girl_2:hover{cursor: pointer;}
+.girl_3{margin-left: -37px;}
+
+/* lookbook */
+.lookbook{border-top: 1px solid #f8f8f8;margin-bottom: 71px;}
+.look{margin-top: 36px;padding-top: 29px;margin-left:15px;background: #f8f8f8;}
+
+.nomargin{ margin-left: 0; width: 31%;}
+.men{background: #f8f8f8;}
+/*.look img{ float: left; }*/
+.text{float:right;margin-left:20px; margin-right: 34px;margin-top: -260px;}
+.text h3{text-transform: uppercase;font-size: 27.4px;margin: 0px 0px 20px 30px;}
+.text p{font-size: 10.56px;margin-bottom: 20px;text-align: right;}
+.view{background: #fff;border: 1px solid #000;margin-left: 30px;}
+.view:hover{background-color: #00c8c8;}
+
+
+/* footer */
+footer{background: #f8f8f8;}
+footer h3{padding-top:36px;margin:0;text-transform: uppercase;padding-bottom: 20px;}
+footer ul{list-style: none;}
+footer ul li{padding-bottom: 10px;}
+footer ul li a{text-decoration: none;color: #727272; font-size: 15.99px;}
+footer ul li a:hover{text-decoration: none;}
+
+/* award */
+.award{background: #333333;text-align: center;padding: 36px 54px;cursor: pointer;}
+.award h4{color: #fff;text-transform: uppercase;line-height: 27.4px;}
+
+/* social */
+.social{background: #00c8c8;padding: 63px 54px;text-align: center;margin-bottom: 20px;}
+.soc{font-size: 20.55px;color: #fff;margin-left: 28px;}
+
+
+
+ /*media queries*/
+  @media screen and (max-width: 480px) {
+  	/*banner*/
+  	.banner_img img{ width: 50%; }
+
+    .logo{padding-right: 0;}
+    /*.cart{margin-left: -2px;padding: 12px 8px;}*/
+    .cart{display: none;}
+    /*.top_bar ul li{margin-left: 5px;}*/
+    /*.link{margin-left: 5px;}*/
+    .slider h2{margin-left: 0;font-size: 158px;}
+    .banner_image{margin-left: 0;}
+    .slider { position: absolute;top: 175px;left: 28px;}
+    .shop {position: absolute;top: 238px; right: 8px;}
+  	.menu{display: none;}
+  	.nomargin{width: 100%;}
+  	.text{margin-right: -9px;}
+  	.look{margin-left: 0;}
+  	.sweater {margin:0;padding-bottom: 15px;}
+  	.banner_image{ margin-left: 50px; }
+  	   .shop{top:130px; right: -90px;}
+   .slider{top: 130px;left: 40px;}
+.slider h2{margin-left: 20px; margin-top: 0; font-size: 100px;}
+.girl{ margin: 0; }
+.t_shirt_2{ margin: 0;padding-bottom: 15px; }
+.girl_2{ margin: 0; }
+.girl_3{margin: 0;}
+
+
+
+
+
+
+
+   }
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	.banner_img img{ width: 50%; }
+
+    .logo{padding-right: 0;}
+    /*.cart{margin-left: -2px;padding: 12px 8px;}*/
+   
+    /*.top_bar ul li{margin-left: 5px;}*/
+    /*.link{margin-left: 5px;}*/
+    .slider h2{margin-left: 0;font-size: 158px;}
+    .banner_image{margin-left: 0;}
+    .slider { position: absolute;top: 175px;left: 28px;}
+    .shop {position: absolute;top: 238px; right: 8px;}
+  	.menu{display: none;}
+  	.nomargin{width: 100%;}
+  	.text{margin-right: -9px;}
+  	.look{margin-left: 0;}
+  	.sweater {margin:0;padding-bottom: 15px;}
+  	.banner_image{ margin-left: 50px; }
+  	   .shop{top:185px; right: -115px;}
+   .slider{top: 130px;left: 40px;}
+.slider h2{margin-left: 20px; margin-top: 0; font-size: 150px;}
+.girl{ margin: 0; }
+.t_shirt_2{ margin: 0;padding-bottom: 15px; }
+.girl_2{ margin: 0; }
+.girl_3{margin: 0;}
+
+
+ }
+@media screen and (min-width: 768px) and (max-width: 1024px) { }
+

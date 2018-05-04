@@ -1,0 +1,69 @@
+body{font-family: 'Roboto Slab', serif;font-family: 'Montserrat Light', arial;
+font-size: 14px;line-height: 12.56px;color: #727272;background: #fff; }
+
+
+/*banner*/
+
+.banner img { position: relative; margin-bottom: 37px; }
+.bannerimg{ padding: 0; }
+.text { position: absolute; top:75px; left:389px;text-transform: uppercase; text-align: center;  color: #fff; }
+.text h1{margin: 0;font-size: 36px;}
+.text h2{font-size: 27.39px;}
+
+/* item */
+.item{ margin-top: 20px; }
+.item1 img{ position: relative; width: 97%; }
+.text1 { position: absolute; top: 0; right: 250px;  }
+.text1 h2{ text-transform: uppercase; }
+.text1 button{ padding: 12px 17px; background: transparent; text-transform: uppercase; outline: none;  border: 2px solid #bfbfc0; color: #9c9d9e; }
+.text1 button:hover{ border: 2px solid #29bbbb; color:#fff; background: #00c8c8; }
+.text1 h3{ text-transform: uppercase; font-size: 15px; } 
+.text1 p{ line-height: 15px; font-size: 10px;  text-transform: capitalize;}
+.product { width: 100%; position: relative; }
+.price{ position: absolute;top: 20px; left:30px; font-size: 20px;}
+.winlook{ position: absolute; top:0; left: 20px; }
+.winlook h2{ text-transform: uppercase; }
+.winlook h3{ font-size: 13px; text-transform: uppercase; }
+.winlook p{ font-size: 10px;text-transform: capitalize; }
+.winlook button{ padding: 12px 17px; margin-top: 20px; background: transparent; text-transform: uppercase; outline: none;  border: 2px solid #bfbfc0; color: #9c9d9e; }
+.winlook button:hover{ border: 2px solid #29bbbb; color:#fff; background: #00c8c8; }
+/*menu*/
+.menu{ margin-bottom: 20px; }
+.menu ul{list-style: none; }
+.menu ul li{float: left; margin-left: 35px;}
+.menu ul li.active a{color: #00c8c8;}
+.menu ul li a{text-decoration: none;text-transform: uppercase;color: #727272;}
+.menu ul li a:hover{color: #00c8c8;}
+.nav {padding-top: 33px; border-top: 2px solid #f8f8f8;}
+
+/*footer*/
+/* lookbook */
+
+.lookbook{border-top: 1px solid #f8f8f8;margin-bottom: 71px;}
+.look{margin-top: 36px;padding-top: 29px;margin-left:15px;background: #f8f8f8;}
+
+.nomargin{ margin-left: 0; width: 31%;}
+.men{background: #f8f8f8;}
+/*.look img{ float: left; }*/
+.text2{float:right;margin-left:20px; margin-right: 34px;margin-top: -260px;}
+.text2 h3{text-transform: uppercase;font-size: 27.4px;margin: 0px 0px 20px 30px;}
+.text2 p{font-size: 10.56px;margin-bottom: 20px;text-align: right;}
+.view{background: #fff;border: 1px solid #000;margin-left: 30px;}
+.view:hover{background-color: #00c8c8;}
+
+
+/* footer */
+footer{background: #f8f8f8;}
+footer h3{padding-top:36px;margin:0;text-transform: uppercase;padding-bottom: 20px;}
+footer ul{list-style: none;}
+footer ul li{padding-bottom: 10px;}
+footer ul li a{text-decoration: none;color: #727272; font-size: 15.99px;}
+footer ul li a:hover{text-decoration: none;}
+
+/* award */
+.award{background: #333333;text-align: center;padding: 36px 54px;cursor: pointer;}
+.award h4{color: #fff;text-transform: uppercase;line-height: 27.4px;}
+
+/* social */
+.social{background: #00c8c8;padding: 63px 54px;text-align: center;margin-bottom: 20px;}
+.soc{font-size: 20.55px;color: #fff;margin-left: 28px;}
